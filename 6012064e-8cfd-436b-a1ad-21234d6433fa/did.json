@@ -1,0 +1,26 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:Shallyquinn.github.io:verify-credential:6012064e-8cfd-436b-a1ad-21234d6433fa",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:Shallyquinn.github.io:verify-credential:6012064e-8cfd-436b-a1ad-21234d6433fa#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:Shallyquinn.github.io:verify-credential:6012064e-8cfd-436b-a1ad-21234d6433fa",
+                "publicKeyMultibase": "z6Mktji4PkjUutScoNYXrKnmcZAPo7DmBX4wKwpCMWKL588T"
+            }
+        ],
+        "authentication": [
+            "did:web:Shallyquinn.github.io:verify-credential:6012064e-8cfd-436b-a1ad-21234d6433fa#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:Shallyquinn.github.io:verify-credential:6012064e-8cfd-436b-a1ad-21234d6433fa#key-0"
+        ]
+    }
